@@ -10,7 +10,7 @@ export default function AboutStack() {
         <Stack.Navigator initialRouteName='About'>
 
             <Stack.Screen
-            name = 'About'
+            name = 'about'
             component={About}
             options = {({navigation}) => {
                 return {
